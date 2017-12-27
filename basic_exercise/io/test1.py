@@ -1,3 +1,5 @@
+"exercise of python io"
+
 import re
 import numpy as np
 
