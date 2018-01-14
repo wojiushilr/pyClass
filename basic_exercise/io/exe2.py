@@ -16,7 +16,4 @@ for i in range(n):
      for n in range(len(temp)):
          m[i][n] = temp[n]
 
-
-
-
 print(m)
