@@ -1,0 +1,35 @@
+[Google Scholar](https://scholar.google.co.jp/) オプション　2017年以降を選択
+1. Prognosis Essay Scoring and Article Relevancy Using Multi-Text Features and Machine Learning
+   - 著者：Arif Mehmood<sup>1</sup>, Byung-Won On<sup>2</sup>, Ingyu Lee<sup>3</sup> and Gyu Sang Choi<sup>1</sup>,
+1:Department of Information and Communication Engineering, Yeungnam University, Gyeongsan 38542, Korea
+2:Department of Statistics and Computer Science, Kunsan National University, Gunsan 54150, Korea
+3:Sorrel College of Business, Troy University, Troy, AL 36082, USA
+   - 出典：Symmetry, 2017, 9(1): 11.
+   - コメント: この論文は文章採点システムや記事の関連性評価についてモデルを提案しました。
+   - 検索サイト?条件: Google Scholar,"automatic text scoring 2017以来"
+   - [論文PDF](http://www.mdpi.com/2073-8994/9/1/11/htm)
+
+1. Matching, Re-ranking and Scoring: Learning Textual Similarity by Incorporating Dependency Graph Alignment and Coverage Features
+  - 著者：Sarah Kohail, Chris Biemann
+Language Technology Group, Computer Science Department, Universitat Hamburg ¨, Hamburg, Germany
+  - 出典：18th International Conference on Computational Linguistics and Intelligent Text Processing. Budapest, Hungary. 2017.
+  - コメント: この論文は文章類似性に対して、教師ありモデルを提出しました。
+  - 検索サイト?条件: Google Scholar,"automatic text scoring 2017以来"
+  - [論文PDF](https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-kohail-biemann-cicling.pdf)
+1. Automatic Text Scoring Using Neural Networks
+  - 著者：Dimitrios Alikaniotis, Helen Yannakoudakis, Marek Rei
+University of Cambridge, Cambridge, UK
+  - 出典：arXiv preprint arXiv:1606.04289, 2016.
+  - コメント: この論文はニューラルネットワークをベースして自動採点フレームワークを提案しました。
+  - 検索サイト?条件: Google Scholar,"automatic text scoring 2017以来"
+  - [論文PDF](https://www.aclweb.org/anthology/P/P16/P16-1068.pdf)
+
+[Google Scholar](https://scholar.google.co.jp/) オプション　2017年以降を選択 `allintitle: automatic text scoring`
+1. SkipFlow: Incorporating Neural Coherence Features for End-to-End Automatic Text Scoring
+  - 著者：Yi Tay<sup>1</sup>, Minh C. Phan<sup>2</sup>, Luu Anh Tuan<sup>3</sup> and Siu Cheung Hui<sup>4</sup>
+  1, 2, 4 : Nanyang Technological University School of Computer Science and Engineering, Singapore.
+  3 : Institute for Infocomm Research, Singapore
+  - 出典：Incorporating Neural Coherence Features for End-to-End Automatic Text Scoring[J]. arXiv preprint arXiv:1711.04981, 2017.
+  - コメント: ディープラーニングをベースして、SKIPFLOWという自動採点システムを提案しました。
+  - 検索サイト?条件: Google Scholar,"`allintitle: automatic text scoring` 2017以来 "
+  - [論文PDF](https://arxiv.org/pdf/1711.04981.pdf)
