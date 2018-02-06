@@ -1,4 +1,4 @@
-
+#https://www.hackerrank.com/challenges/grading/problem
 import sys
 
 def solve(grades):

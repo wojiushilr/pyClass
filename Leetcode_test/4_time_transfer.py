@@ -20,6 +20,7 @@ Sample Output
 19:05:45
 
 '''
+#https://www.hackerrank.com/challenges/time-conversion/problem
 import sys
 import time
 
