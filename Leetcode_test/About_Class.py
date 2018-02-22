@@ -26,3 +26,9 @@ emp2 = Employee("Manni", 5000)
 emp1.displayEmployee()
 emp2.displayEmployee()
 print("Total Employee %d" % Employee.empCount)
+
+
+line = ["aasdasdas"]
+temp = ["<br>"]
+for i in line+temp:
+ print(i, end="")
