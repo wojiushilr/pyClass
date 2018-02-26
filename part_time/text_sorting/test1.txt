@@ -16,6 +16,7 @@ Language Technology Group, Computer Science Department, Universitat Hamburg ¨, 
   - コメント: この論文は文章類似性に対して、教師ありモデルを提出しました。
   - 検索サイト?条件: Google Scholar,"automatic text scoring 2017以来"
   - [論文PDF](https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-kohail-biemann-cicling.pdf)
+
 1. Automatic Text Scoring Using Neural Networks
   - 著者：Dimitrios Alikaniotis, Helen Yannakoudakis, Marek Rei
 University of Cambridge, Cambridge, UK

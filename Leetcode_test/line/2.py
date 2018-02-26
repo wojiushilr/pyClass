@@ -33,12 +33,9 @@ def spoken_word_to_number(n):
 
 def number_to_spoken_word(m):
 
-
     arr = list(m)
-
     for i in range(len(arr)):
         print(_known2.get(arr[i]), end="")
-
 
 arr = input().strip().split()
 

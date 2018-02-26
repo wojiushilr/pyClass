@@ -1,8 +1,8 @@
-import pandas as pd
-import numpy as np
+'''
+20180125 LIRUI
+'''
 import chardet
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
+import copy
 '''
 #v1
 text_sample = pd.read_csv('textSample.txt', encoding= "ShiftJIS", sep="delimiter",error_bad_lines=False, engine='python')
@@ -16,30 +16,52 @@ print(text_sample)
 def convert(arr):
 
     num = 0
+    for i in range(len(arr)-2):
+        #print(arr[i])
+        temp = []
+        temp.append(arr[i])
+        temp.append(arr[i+1])
+        temp.append(arr[i+1+1])
+        #print(temp)
+        sample = ["1","."," "]
+        if temp == sample:
 
-    for i in range(len(arr)):
-
-        if arr[i] == "1":
+            arr[i] = copy.deepcopy(num)
+            print(arr[i])
             num += 1
 
     return num
+
+#文字の切り替え
+def delete(arr):
+
+    text1 = arr.replace("[", "")
+    text1 = text1.replace("]", "")
+    text1 = text1.replace("<sup>", "")
+    text1 = text1.replace("</sup>", "")
+
+    return text1
+
 
 #TXTファイルを読み込み、encodingを注意
 with open("test1.txt", "r", encoding="UTF-8") as f:
     text = f.read()
 
-#文字の切り替え
-text1 = text.replace("[論文PDF]", "")
+
+
+text1 = delete(text)
+#tolist
+text2 = list(text1)
+print(type(text2))
+num = convert(text2)
+print("the number of 1:", num, end="\n\n")
 
 #output
-print (type(text1))
+print ("Sample output loading.......")
 
-text2 = list(text1)
 
-print(len(text2))
 
-num = convert(text1)
-print(num)
+print(text1)
 
 #testsuite
 temp = "年以降を選択"
