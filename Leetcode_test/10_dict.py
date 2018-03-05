@@ -1,6 +1,9 @@
+
+
 n = int(input())
-name_numbers = [input().split() for _ in range(n)]
-print(name_numbers)
+name_numbers = [input().split(" ") for _ in range(n)]
+print(name_numbers[0][0])
+#[['sam', '111']]
 phone_book = {k: v for k,v in name_numbers}
 while True:
     try:
@@ -11,3 +14,6 @@ while True:
             print('Not found')
     except:
         break
+
+
+
