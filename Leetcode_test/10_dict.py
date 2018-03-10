@@ -17,3 +17,25 @@ while True:
 
 
 
+
+
+
+l = 'sam 111'
+print(l.split())
+
+
+a=" \rzha ng\n\t "
+print(a.split())
+
+
+str = "*****this is string example....wow!!!*****"
+print (str.strip( '*' ))
+
+str = "this is string example....wow!!!"
+print (str.split( ))
+print (str.split('i',1))
+print (str.split('w'))
+# str -- 分隔符，默认为所有的空字符，包括空格、换行(\n)、制表符(\t)等。
+# num -- 分割次数。
+
+
