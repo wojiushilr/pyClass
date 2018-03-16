@@ -19,9 +19,11 @@ class Student(Person):
 #   scores - An array of integers denoting the Person's test scores.
 #
 # Write your constructor here
+
     def __init__(self,firstName,lastName,idNumber,score):
         super(Student,self).__init__(firstName,lastName,idNumber)
         self.score = score
+
 #   Function Name: calculate
 #   Return: A character denoting the grade.
 #
@@ -50,3 +52,10 @@ s = Student(firstName, lastName, idNum, scores)
 #s = Student("H", "B", "1", [80,100])
 s.printPerson()
 print("Grade:", s.calculate())
+
+
+'''
+Heraldo Memelli 8135627
+2
+100 80
+'''
