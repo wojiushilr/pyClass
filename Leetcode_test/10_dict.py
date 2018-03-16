@@ -15,11 +15,6 @@ while True:
     except:
         break
 
-
-
-
-
-
 l = 'sam 111'
 print(l.split())
 

@@ -2,18 +2,15 @@
 
 import sys
 
+def factorial(n):
+    # Complete this function
+    k = n
+    if n > 1:
+        return k*factorial(n-1)
+    else:
+        return k
 
-n = int(input().strip())
-
-#to binary
-
-#print(type(bin(n)))
-#print(n_bin_list[2:])
-
-numbers = str(bin(n)[2:]).split('0')
-print(numbers)
-lenghts = [len(num) for num in numbers]
-print(max(lenghts))
-
-
-
+if __name__ == "__main__":
+    n = int(input().strip())
+    result = factorial(n)
+    print(result)
