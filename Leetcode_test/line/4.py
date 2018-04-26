@@ -7,13 +7,25 @@ def main(argv):
 
         l = len(argv)
 
+
         for i in range(l):
 
             str_temp = list(argv[i])
-            #print(type(int(argv[i])))
+            num0 = 0
+
+            for j in range(len(str_temp)):
+                if str_temp[j] in ["９","８","７","６","５","４","３","２","１","０"]:
+                    num0 = num0+1
+
+
+            #print(type(argv[i]))
             #print(str_temp)
-            #print(i)
+            #num = ord((argv[i]))
+
             if argv[i].isdigit() == False:
+
+                print("invalid")
+            elif num0 != 0:
                 print("invalid")
             else:
                 num1 = 0

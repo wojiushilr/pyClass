@@ -7,9 +7,7 @@ import copy
 #v1
 text_sample = pd.read_csv('textSample.txt', encoding= "ShiftJIS", sep="delimiter",error_bad_lines=False, engine='python')
 text_sample = np.array(text_sample)
-
 #text_out = text_sample.decode('unicode_escape')
-
 print(text_sample)
 '''
 #数字”１”を削除

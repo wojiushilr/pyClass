@@ -158,7 +158,6 @@ def step(t):
     population= newpop
  
  
- 
 
 #for Canopy users
 ani = animation.FuncAnimation(fig, main_loop, np.arange(0, T), interval=25, repeat=False)
