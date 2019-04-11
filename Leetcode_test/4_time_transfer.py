@@ -28,7 +28,7 @@ def timeConversion(s):
     # Complete this function
 
     t = s.rstrip('APM').split(':')
-    #print(type(t))
+    print(t)
     t[0] = int(t[0])
     t[0] = t[0] % 12
     if 'PM' in s:

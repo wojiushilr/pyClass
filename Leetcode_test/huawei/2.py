@@ -85,7 +85,7 @@ def convert(n):
 
 
 arr = input().strip().split()
-#print(arr)
+print(arr)
 
 convert(arr)
 

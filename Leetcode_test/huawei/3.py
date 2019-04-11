@@ -15,7 +15,8 @@ def minSubArray(nums):
                 minList = sonList
     print (sum(maxList))
 
-num =input().strip().split(", ")
+num =input().strip().split(",")
+print(num)
 arr = []
 for i in range(len(num)):
     arr.append(int(num[i]))

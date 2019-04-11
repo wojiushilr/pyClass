@@ -17,6 +17,7 @@ priceArrayA = []
 priceArrayB = []
 #
 n = int(input().strip())
+print(n)
 for i in range(n)  :
    temp1 = input().strip()
    priceArrayA.append(temp1)

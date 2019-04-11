@@ -1,6 +1,6 @@
 import re
 import numpy as np
-
+#数组初始化
 a=input()
 b=a.split(" ")
 n=int(b[0])

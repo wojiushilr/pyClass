@@ -1,6 +1,18 @@
+# -*- coding:utf-8 -*-
 
-l = len(unitsSold)
-s = 0
-for i in range(l):
-    if unitsSold[i] >= 0:
-        s += unitsSold[i]
+def replaceSpace(s):
+        # write code here
+
+        print(type(s))
+        print(s)
+        s = s.split(' ')
+
+        print(s)
+        for i in range(len(s)):
+         print (s[i],end='')
+         print ("%20",end='')
+
+
+
+replaceSpace(input())
+b = '     ddd dfe dfd     efre    ddd   '
